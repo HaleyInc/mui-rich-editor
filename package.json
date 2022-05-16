@@ -1,5 +1,5 @@
 {
-  "name": "mui-rich-editor",
+  "name": "@haleyinc/mui-rich-editor",
   "version": "0.1.0",
   "description": "Library for a rich text editor and viewer built with Material UI and Slate js",
   "main": "dist/index.cjs.js",
