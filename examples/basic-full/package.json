@@ -1,0 +1,36 @@
+{
+  "name": "basic-full",
+  "version": "0.1.0",
+  "description": "Example for rich text editor",
+  "private": true,
+  "scripts": {
+    "start": "rewp build --watch",
+    "build": "rewp build",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-loader": "^8.1.0",
+    "rewp": "^0.6.2",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@haleyinc/mui-rich-editor": "^0.1.2",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@mui/styles": "^5.2.3",
+    "core-js": "^3.15.1",
+    "escape-html": "^1.0.3",
+    "is-url": "^1.2.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "slate": "^0.72.8",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.72.9"
+  }
+}
