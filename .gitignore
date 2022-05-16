@@ -1,0 +1,17 @@
+node_modules/
+npm-debug.log
+output/
+build/
+upload/
+dist/
+.env
+
+# coverage
+.nyc_output
+coverage/
+
+.vscode/
+.DS_Store
+
+aws-exports.js
+awsconfiguration.json
