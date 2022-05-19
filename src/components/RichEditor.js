@@ -59,7 +59,15 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-const RichEditor = ({ val, onChange, toggleFullScreen, isFullscreen, isEditable = true, placeholder = 'Start typing here…', transformLink = link => link }) => {
+const RichEditor = ({
+  val,
+  onChange,
+  toggleFullScreen,
+  isFullscreen,
+  isEditable = true,
+  placeholder = 'Start typing here…',
+  transformLink = link => link
+}) => {
   const [value, setValue] = useState(val || initialValue)
   const renderElement = useCallback(props => <Element transformLink={transformLink} {...props} />, [])
   const renderLeaf = useCallback(props => <Leaf {...props} />, [])

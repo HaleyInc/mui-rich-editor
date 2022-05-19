@@ -58,7 +58,7 @@ export const TIPS = {
   exit_fullscreen: 'Exit Fullscreen Mode'
 }
 
-export const Icon = ({ icon, active }) => {
+const Icon = ({ icon, active }) => {
   const IconComponent = ICONS[icon]
   return <IconComponent color={active ? 'primary' : 'inherit'} />
 }
