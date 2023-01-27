@@ -13,7 +13,7 @@ import isUrl from 'is-url'
 import Box from '@mui/material/Box'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
-import makeStyles from '@mui/styles/makeStyles'
+import { makeStyles } from '@mui/material/styles'
 
 import { FormatIcon } from './Icons'
 
